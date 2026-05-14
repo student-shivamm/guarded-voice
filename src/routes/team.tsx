@@ -7,10 +7,10 @@ export const Route = createFileRoute("/team")({
 });
 
 const members = [
-  { name: "Team Member 1", role: "ML Engineer", initials: "M1" },
-  { name: "Team Member 2", role: "Frontend Developer", initials: "M2" },
-  { name: "Team Member 3", role: "Research Lead", initials: "M3" },
-  { name: "Team Member 4", role: "Audio Engineer", initials: "M4" },
+  { name: "Lucky", role: "2022UIC3504", initials: "L" },
+  { name: "Shivam Bajaj", role: "2022UIC3539", initials: "SB" },
+  { name: "Saaransh Jain", role: "2022UIC3542", initials: "SJ" },
+  { name: "Atul Kumar", role: "2022UIC4014", initials: "AK" },
 ];
 
 function Team() {
