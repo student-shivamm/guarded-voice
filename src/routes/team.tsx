@@ -7,18 +7,18 @@ export const Route = createFileRoute("/team")({
 });
 
 const members = [
-  { name: "Team Member 1", role: "ML Engineer", initials: "M1" },
-  { name: "Team Member 2", role: "Frontend Developer", initials: "M2" },
-  { name: "Team Member 3", role: "Research Lead", initials: "M3" },
-  { name: "Team Member 4", role: "Audio Engineer", initials: "M4" },
+  { name: "Lucky", role: "2022UIC3504", initials: "L" },
+  { name: "Shivam Bajaj", role: "2022UIC3539", initials: "SB" },
+  { name: "Saaransh Jain", role: "2022UIC3542", initials: "SJ" },
+  { name: "Atul Kumar", role: "2022UIC4014", initials: "AK" },
 ];
 
 function Team() {
   return (
     <PageShell>
       <section className="mx-auto max-w-5xl px-4 py-16">
-        <h1 className="text-4xl font-bold tracking-tight">The team</h1>
-        <p className="mt-3 text-muted-foreground">A small group of students building DeepGuard AI as a final-year ML project.</p>
+        <h1 className="text-4xl font-bold tracking-tight">Submitted By</h1>
+        <p className="mt-3 text-muted-foreground">DeepGuard AI — Final-year ML project team.</p>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {members.map((m) => (
