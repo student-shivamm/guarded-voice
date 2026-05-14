@@ -65,7 +65,7 @@ function DetectPage() {
 
         {busy && <ProcessLoader />}
 
-        {result && <ResultCard result={result} onReset={reset} onContinue={() => navigate({ to: "/verify", search: { hasSuspicious: 1 } as never })} suspiciousFile={file} />}
+        {result && <ResultCard result={result} onReset={reset} onContinue={() => navigate({ to: "/verify" })} suspiciousFile={file} />}
       </section>
     </PageShell>
   );
