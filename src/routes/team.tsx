@@ -17,8 +17,8 @@ function Team() {
   return (
     <PageShell>
       <section className="mx-auto max-w-5xl px-4 py-16">
-        <h1 className="text-4xl font-bold tracking-tight">The team</h1>
-        <p className="mt-3 text-muted-foreground">A small group of students building DeepGuard AI as a final-year ML project.</p>
+        <h1 className="text-4xl font-bold tracking-tight">Submitted By</h1>
+        <p className="mt-3 text-muted-foreground">DeepGuard AI — Final-year ML project team.</p>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {members.map((m) => (
